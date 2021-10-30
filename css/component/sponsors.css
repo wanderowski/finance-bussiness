@@ -1,0 +1,38 @@
+.sponsors {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    
+}
+
+.sponsors__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sponsors__slider {
+    width: 100%;
+    display: block;
+}
+
+.slider__item {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('../../img/png/client-01.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    outline: none;
+
+}

@@ -1,0 +1,97 @@
+.header {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-fixed {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    animation: header-flow;
+    animation-duration: 1s;
+}
+
+.header__wrapper {
+
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.header__nav {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.header__navlist {
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.header__navitem {
+    min-width: 100px;
+
+}
+
+.header__navitem a {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.header__navitem a:hover {
+    color: #a4c639 !important;
+    border-bottom: 3px solid #a4c639;
+}
+
+.header__navitem-active a {
+    color: #a4c639;
+    border-bottom: 3px solid #a4c639;
+}
+
+.header__login {
+    width: 125px;
+    height: 30px;
+    padding: 5px 15px;
+}
+
+
+@keyframes header-flow {
+    0% {
+        top: -200px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}

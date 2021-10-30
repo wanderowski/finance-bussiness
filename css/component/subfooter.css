@@ -1,0 +1,22 @@
+.subfooter {
+    padding: 30px 0;
+    width: 100%;
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subfooter__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subfooter__span {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
